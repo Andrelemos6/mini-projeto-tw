@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f3f3d2;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0a0a0a;
+    color: #f3eeee;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+/* Contêiner do Perfil */
+.profile {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.profile-icon {
+    width: 40px; /* Tamanho pequeno */
+    height: 40px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    border: 2px solid #fff; /* Adiciona uma borda branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+/* Contêiner do Perfil */
+.profile {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.profile-icon {
+    width: 40px; /* Tamanho pequeno */
+    height: 40px;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    border: 2px solid #fff; /* Adiciona uma borda branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+
+/* Logo */
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fdfafa;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #fdfbfb; /* Define a cor do texto como vermelha */
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #101010; /* Garante que o título esteja em branco */
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #1a1919; /* Garante que o parágrafo esteja em branco */
+}
+
+.banner .botao {
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner .botao:hover {
+    background-color: #555;
+}
+
+
+/* Estilo da imagem do banner */
+.banner-img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 40%; /* Ajusta o tamanho da imagem proporcionalmente */
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona um leve sombreado */
+}
+
+
+/* Galeria */
+.galeria {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.galeria h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #131313;
+}
+
+.galeria img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

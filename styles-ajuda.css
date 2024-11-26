@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover,
+nav ul li a.ativo {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background: url("imagens/background-ajuda.jpg") no-repeat center center/cover;
+    color: #080808;
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.banner p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/* Seções de Ajuda */
+.ajuda-secoes {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.ajuda-secoes h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.secao {
+    text-align: center;
+    max-width: 200px;
+}
+
+.secao img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.secao h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.secao p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.secao a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.secao a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ */
+.faq {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    font-size: 1rem;
+}
+
+.faq-item a {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+}
